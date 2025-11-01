@@ -1,0 +1,44 @@
+
+# backup
+**/*.rs.bk
+
+# build artifacts
+target/
+
+# WebAssembly / wasm-pack
+pkg/
+wasm-pack.log
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon?
+.Spotlight-V100
+.Trashes
+.DS_Store
+
+# tmp
+*~
+.#*
+*.swp
+*.swo
+*.orig
+*.tmp
+tmp/
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# rust-analyzer
+rust-project.json
+
